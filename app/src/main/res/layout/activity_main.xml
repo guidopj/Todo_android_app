@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/TodoRootLayoutId"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp" >
+
+    <ListView
+        android:id="@+id/TodoAppListId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+    <Button
+        android:id="@+id/addTodoItemButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textFontWeight="5"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="ADD"
+        android:onClick="addTodoItem"
+        android:src="@drawable/plus1" />
+</RelativeLayout>
